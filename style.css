@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap');
 
 body {
   font-size: 20px;
@@ -37,10 +38,10 @@ p a {
 }
 
 .intro {
-  font-size: 26px;
+  font-size: 25px;
   color: black;
   display: block;
-  font-family: "Times New Roman";
+  font-family: 'Arima Madurai', cursive;
 }
 
 h1,
@@ -83,6 +84,24 @@ blockquote {
   text-align: center;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+.writePics {
+  background-repeat: no-repeat;
+    float:right;
+   display: block;
+  margin-left: 100px;
+  margin-right: auto;
+  width:25%;
+}
+
+.writePics2 {
+      background-repeat: no-repeat;
+    float:left;
+   display: block;
+  margin-left: 100px;
+  margin-right: auto;
+  width:25%;
 }
 
 ::-moz-selection {
@@ -315,6 +334,19 @@ header.masthead .post-heading .meta a {
   text-decoration: none;
   color: #0085a1;
 }
+/*...........write up css*/
+.writeTitle {
+    font-family: "Do Hyeon", sans-serif;
+    font-size: 50px;
+}
+.writeTitle2 {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
 
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -324,7 +356,8 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a > .post-subtitle {
   font-weight: 300;
-  margin: 0 0 10px;
+  align-content: right;
+  margin: 0 0 40px;
 }
 
 .post-preview > .post-meta {
@@ -341,7 +374,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus,
 .post-preview > .post-meta > a:hover {
-  text-decoration: underline;
+  text-decoration: ;
   color: #0085a1;
 }
 
@@ -457,7 +490,12 @@ footer {
   background: #e84610;
 }
 
+.footerCSS {
+    float: center;
+}
+
 #footer-details {
+    align-content: center;
   padding: 20px;
 }
 /*.......................................Gallery */
@@ -487,8 +525,9 @@ div.desc {
 footer {
   background-color: #525252;
   color: #fafafa;
-  min-height: 120px;
+  min-height: 50px;
   margin: 0;
+  display: block;
 }
 
 .cv-pdf i {
@@ -575,4 +614,131 @@ footer .copyright {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: relative; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+/*...............contact form */
+
+.contactForm {
+    font-family: 'Arima Madurai', cursive;
+    margin-left: 250px;
+    margin-right: 250px;
+    float: center;
+    font-size: 35px;
 }

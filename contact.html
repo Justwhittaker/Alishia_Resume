@@ -20,7 +20,7 @@
 	<link
 		href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
 		rel="stylesheet" type="text/css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Custom styles for this template -->
 	<link href="css/style.min.css" rel="stylesheet">
 
@@ -32,13 +32,42 @@
 	
 
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top mainNav" id="nav_fix">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mainNav" id="nav_fix">
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<a class="navbar-brand">Alishia Whittaker Marketing</a>
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Log In
-        <i class="fas fa-bars"></i>
-      </button>
+		<!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="dig_mar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
 
 				<ul class="navbar-nav ml-auto">      
 					<ui class="nav-item">
@@ -69,10 +98,10 @@
 	</header>
 
 	<!-- Main Content -->
-	<div class="container">
+	<div class="container contactForm">
 		<div class="row">
 			<div class="col-lg-8 col-md-10 mx-auto">
-				<p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon
+				<p class="contactForm">Want to get in touch?<br> Fill out the form below to send me a message and I will get back to you as soon
 					as possible!</p>
 				<!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
 				<!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
@@ -120,24 +149,15 @@
 
 	<!-- Footer -->
 
-	<footer class="container-fluid">
+	<footer class="container-fluid footerCSS">
 		<div id="footer-details" class="row">
 			<div class="col-sm-4">
 				<h5 class="uppercase general-sub"></h5>
 				<p class="inline-block">
 				</p>
 			</div>
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">Download</h5>
-				<p class="inline-block">
-					Need a printable version of my CV? Download it here.
-					<a href="#" target="_blank" class="cv-pdf">
-						<i class="fa fa-download" aria-hidden="true"></i>
-						<span class="sr-only">Download link.</span>
-					</a>
-				</p>
-			</div>
-			<div class="col-sm-4">
+			
+			<div class="col-sm-4 footerCSS">
 				<h5 class="uppercase general-sub">Social</h5>
 				<ul class="list-inline social-links">
 					<li class="list-inline-item">
@@ -179,40 +199,7 @@
 				</ul>
 			</div>
 		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-10 mx-auto">
-					<ul class="list-inline text-center">
-						<li class="list-inline-item">
-							<a href="#">
-								<span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="#">
-								<span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="#">
-								<span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-							</a>
-						</li>
-					</ul>
-					<p class="copyright text-muted">Copyright &copy; Alishia Whittaker</p>
-				</div>
-			</div>
-		</div>
+		
 	</footer>
 	<!-- Bootstrap core JavaScript -->
 	<script src="vendor/jquery/jquery.min.js"></script>
