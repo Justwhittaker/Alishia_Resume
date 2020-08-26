@@ -523,30 +523,16 @@ div.desc {
 /* ----------------------------------------Footer */
 
 footer {
-  background-color: #525252;
+  background-color: #239691;
   color: #fafafa;
-  min-height: 50px;
   margin: 0;
   display: block;
-}
-
-.cv-pdf i {
-  font-size: 18px;
-  color: #fafafa;
-  text-align: center;
-  padding-left: 5px;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-  color: #e84610;
+  position: relative;
 }
 
 .social-links {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+   margin-left: 150px;
 }
 
 .social-links li a i {
@@ -574,7 +560,7 @@ footer {
 }
 
 footer {
-  padding: 50px 0 65px;
+  padding: 20px 0 25px;
 }
 
 footer .list-inline {
