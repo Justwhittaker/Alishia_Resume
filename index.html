@@ -46,17 +46,27 @@
     >
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <a class="navbar-brand"
-          >Alishia Whittaker Marketing<button
-            onclick="document.getElementById('id01').style.display='block'"
-          >
+          >Alishia Whittaker Marketing</a>
+        <ul class="navbar-nav ml-auto">
+          <ui class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </ui>
+          <ui class="nav-item">
+            <a class="nav-link" href="post.html">Gallery</a>
+          </ui>
+          <ui class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </ui><button
+            onclick="document.getElementById('id01').style.display='inline'">
             Login
-          </button></a
-        >
+          </button>
+        </ul>
+        
+      </div>
+          
+
         <!-- Button to open the modal login form -->
-        <form action="/action_page.php">
-          <input type="file" id="myFile" name="filename" />
-          <input type="submit" />
-        </form>
+       
 
         <!-- The Modal -->
         <div id="id01" class="modal">
@@ -70,7 +80,7 @@
           <!-- Modal Content -->
           <form class="modal-content animate" action="/action_page.php">
             <div class="imgcontainer">
-              <img src="dig_mar.png" alt="Avatar" class="avatar" />
+              <img src="img/logo2.png" alt="WTF" class="avatar" />
             </div>
 
             <div class="container">
@@ -108,20 +118,7 @@
               <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
           </form>
-        </div>
-
-        <ul class="navbar-nav ml-auto">
-          <ui class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </ui>
-          <ui class="nav-item">
-            <a class="nav-link" href="post.html">Gallery</a>
-          </ui>
-          <ui class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </ui>
-        </ul>
-      </div>
+       
     </nav>
 
     <!-- Page Header -->
