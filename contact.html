@@ -32,56 +32,84 @@
 	
 
 	<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top mainNav" id="nav_fix">
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<a class="navbar-brand">Alishia Whittaker Marketing</a>
-		<!-- Button to open the modal login form -->
-<button onclick="document.getElementById('id01').style.display='block'">Login</button>
-
-<!-- The Modal -->
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'"
-class="close" title="Close Modal">&times;</span>
-
-  <!-- Modal Content -->
- <form class="modal-content animate" action="/uploadfile.html">
-            <div class="imgcontainer">
-              <img src="img/logo2.png" alt="WTF" class="avatar" />
-            </div>
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
-				<ul class="navbar-nav ml-auto">      
-					<ui class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</ui>
-					<ui class="nav-item">
-						<a class="nav-link" href="post.html">Gallery</a>
-					</ui>
-					<ui class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</ui>
-                    </ul>
-		</div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top mainNav"
+      id="nav_fix"
+    >
+      <div class="collapse navbar-collapse Bar" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+        <a class="navbar-brand"></a>
         
-	</nav>
+           <a style="text-decoration: none;" class="nav-link" href="index.html">Home</a>
+            <a style="text-decoration: none;" class="nav-link" href="post.html">Gallery</a>
+            <a style="text-decoration: none;" class="nav-link" href="contact.html">Contact</a>
+          
+          <button
+            onclick="document.getElementById('id01').style.display='inline'">
+            Login
+          </button>
+    </ul>
+        
+      </div>
+          
+
+        <!-- Button to open the modal login form -->
+       
+
+        <!-- The Modal -->
+        <div id="id01" class="modal">
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="close"
+            title="Close Modal"
+            >&times;</span
+          >
+
+          <!-- Modal Content -->
+          <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+            
+            </div>
+
+            <img src="img/logo2.png" alt="WTF" class="avatar" />
+            
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input
+                type="text"
+                placeholder="Enter Username"
+                name="uname"
+                required
+              />
+
+              <label for="psw"><b>Password</b></label>
+              <input
+                type="password"
+                placeholder="Enter Password"
+                name="psw"
+                required
+              />
+
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember" />
+                Remember me
+              </label>
+            </div>
+
+            <div class="container" style="background-color: #f1f1f1;">
+              <button
+                type="button"
+                onclick="document.getElementById('id01').style.display='none'"
+                class="cancelbtn"
+              >
+                Cancel
+              </button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </div>
+    </nav>
 	<!-- Page Header -->
 	<header class="masthead" style="background-image: url('img/keyboard.jpeg')">
 		<div class="overlay"></div>
@@ -89,10 +117,11 @@ class="close" title="Close Modal">&times;</span>
 			<div class="row">
 				<div class="col-lg-8 col-md-10 mx-auto">
 					<div>
-			<img class="logo" src="img/logo.png" alt="logo">
+			
 					</div>
-				</div>
+                </div>
 			</div>
+				<img class="logo" src="img/logo.png" alt="logo">
 		</div>
 	</header>
 
@@ -100,7 +129,7 @@ class="close" title="Close Modal">&times;</span>
 	<div class="container contactForm">
 		<div class="row">
 			<div class="col-lg-8 col-md-10 mx-auto">
-				<p class="contactForm">Want to get in touch?<br> Fill out the form below to send me a message and I will get back to you as soon
+				<p class="contactForm">Want to get in touch?<br> Fill out the form below & I will get back to you as soon
 					as possible!</p>
 				<!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
 				<!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
@@ -145,43 +174,44 @@ class="close" title="Close Modal">&times;</span>
 	</div>
 
 	<hr>
-   <!-- Footer -->
+  <!-- Footer -->
 
    <footer class="footerCSS">
 			<div class="footerCSS">
-				<h5 class="uppercase general-sub">Social</h5>
 				<ul class="list-inline social-links">
 					
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://www.facebook.com/search/top?q=i%20love%20galway%20city">
 							<i class="fa fa-facebook" aria-hidden="true"></i>
 							<span class="sr-only">Facebook</span>
 						</a>
 					
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://twitter.com/irishweddings">
 							<i class="fa fa-twitter" aria-hidden="true"></i>
 							<span class="sr-only">Twitter</span>
 						</a>
 					
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://www.linkedin.com/in/alishia-whittaker-b1a643189/">
 							<i class="fa fa-linkedin" aria-hidden="true"></i>
 							<span class="sr-only">LinkedIn</span>
 						</a>
 					
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://www.pinterest.ie/cb12710280/">
 							<i class="fa fa-pinterest" aria-hidden="true"></i>
 							<span class="sr-only">Pinterest</span>
 						</a>
 					
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://www.instagram.com/claregalway_hotel/?hl=en">
 							<i class="fa fa-instagram" aria-hidden="true"></i>
 							<span class="sr-only">Instagram</span>
 						</a>
-					
+                       <a><br>+353 85 724 8753 <br>
+                       alishia.whittaker@gmail.com</a>
+					<!--
 						<a target="_blank" href="#">
 							<i class="fa fa-youtube" aria-hidden="true"></i>
 							<span class="sr-only">YouTube</span>
 						</a>
-					
+			-->
 				</ul>
 			</div>
 	

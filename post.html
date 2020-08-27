@@ -14,9 +14,7 @@
 	<link href="style.min.css" rel="stylesheet">
 
 	<!-- Custom fonts for this template -->
-	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
-		type="text/css">
+	
 	<link
 		href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
 		rel="stylesheet" type="text/css">
@@ -27,60 +25,87 @@
 	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 
-<body>
+
 
 	
-	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top mainNav" id="nav_fix">
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<a class="navbar-brand">Alishia Whittaker Marketing</a>
-		<!-- Button to open the modal login form -->
-<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+<!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top mainNav"
+      id="nav_fix"
+    >
+      <div class="collapse navbar-collapse Bar" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+        <a class="navbar-brand"></a>
 
-<!-- The Modal -->
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'"
-class="close" title="Close Modal">&times;</span>
+            <a style="text-decoration: none;" class="nav-link" href="index.html">Home</a>
+            <a style="text-decoration: none;" class="nav-link" href="post.html">Gallery</a>
+            <a style="text-decoration: none;" class="nav-link" href="contact.html">Contact</a>
+          
+          
+          <button
+            onclick="document.getElementById('id01').style.display='inline'">
+            Login
+          </button>
+    </ul>
+        
+      </div>
+          
 
-  <!-- Modal Content -->
-  <form class="modal-content animate" action="/action_page.php">
+        <!-- Button to open the modal login form -->
+       
+
+        <!-- The Modal -->
+        <div id="id01" class="modal">
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="close"
+            title="Close Modal"
+            >&times;</span
+          >
+
+          <!-- Modal Content -->
+          <form class="modal-content animate" action="/action_page.php">
             <div class="imgcontainer">
               <img src="img/logo2.png" alt="WTF" class="avatar" />
             </div>
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input
+                type="text"
+                placeholder="Enter Username"
+                name="uname"
+                required
+              />
 
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
+              <label for="psw"><b>Password</b></label>
+              <input
+                type="password"
+                placeholder="Enter Password"
+                name="psw"
+                required
+              />
 
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember" />
+                Remember me
+              </label>
+            </div>
 
-				<ul class="navbar-nav ml-auto">      
-					<ui class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</ui>
-					<ui class="nav-item">
-						<a class="nav-link" href="post.html">Gallery</a>
-					</ui>
-					<ui class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</ui>
-                    </ul>
-		</div>
-        
-	</nav>
+            <div class="container" style="background-color: #f1f1f1;">
+              <button
+                type="button"
+                onclick="document.getElementById('id01').style.display='none'"
+                class="cancelbtn"
+              >
+                Cancel
+              </button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </div>
+    </nav>
 
 	<!-- Page Header -->
 
@@ -96,83 +121,140 @@ class="close" title="Close Modal">&times;</span>
 				</div>
 			</div>
 		</header>
-
+<body>
+    
 		<!-- Main Content -->
 		<div>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-md-10 mx-auto">
+					<div class="col-lg-4 col-md-4 col-sm-4 mx-auto">
 						<div>
 							<h2>What can I acheive for your business
 							</h2>
 							<div class="gallery">
 								<img src="img/gym1.png" alt="Forest" width="600" height="400">
 
-								<div class="desc">Add a description of the image here</div>
+								<div class="desc">Core Fitness Campaign</div>
 							</div>
 
 							<div class="gallery">
 								<img src="img/gym2.png" alt="Forest" width="600" height="400">
 
-								<div class="desc">Add a description of the image here</div>
+								<div class="desc">Core Fitness Campaign</div>
 							</div>
 
 							<div class="gallery">
 								<img src="img/gym3.png" alt="Forest" width="600" height="400">
 
-								<div class="desc">Add a description of the image here</div>
+								<div class="desc">Core Fitness Campaign</div>
+							</div>
+	                        <div class="gallery">
+								<img src="img/tre_logo.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Restaurant Logo design</div>
 							</div>
 
 							<div class="gallery">
-								<a target="_blank" href="img_mountains.jpg">
-									<img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-  </a>
-									<div class="desc">Add a description of the image here</div>
+								<img src="img/tre_logo2.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Restaurant Logo Design</div>
+							</div>
+
+							<div class="gallery">
+								<img src="img/tre_multi.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Restaurant Campaign</div>
+							</div><div class="gallery">
+								<img src="img/tapa.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Food Photos</div>
+							</div>
+
+							<div class="gallery">
+								<img src="img/tre_jack.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Food photos</div>
+							</div>
+
+							<div class="gallery">
+								<img src="img/tre_salad.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Food photos</div>
+							</div>
+	                        <div class="gallery">
+								<img src="img/tre_taste.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Restaurant Tasting Campaign</div>
+							</div>
+
+							<div class="gallery">
+								<img src="img/tre_tasting.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Restaurant Tasting Campaign</div>
+							</div>
+
+							<div class="gallery">
+								<img src="img/tre_champ.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Drink photos</div>
+							</div>
+                            
+							<div class="gallery">
+								<img src="img/tre_gin.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Drink photos</div>
+							</div>
+                            <div class="gallery">
+								<img src="img/tre_gin2.jpg" alt="Forest" width="600" height="400">
+
+								<div class="desc">Drink photos</div>
+							</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+	
         
 	</body>
-   <!-- Footer -->
+  <!-- Footer -->
 
    <footer class="footerCSS">
 			<div class="footerCSS">
-				<h5 class="uppercase general-sub">Social</h5>
 				<ul class="list-inline social-links">
 					
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://www.facebook.com/search/top?q=i%20love%20galway%20city">
 							<i class="fa fa-facebook" aria-hidden="true"></i>
 							<span class="sr-only">Facebook</span>
 						</a>
 					
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://twitter.com/irishweddings">
 							<i class="fa fa-twitter" aria-hidden="true"></i>
 							<span class="sr-only">Twitter</span>
 						</a>
 					
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://www.linkedin.com/in/alishia-whittaker-b1a643189/">
 							<i class="fa fa-linkedin" aria-hidden="true"></i>
 							<span class="sr-only">LinkedIn</span>
 						</a>
 					
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://www.pinterest.ie/cb12710280/">
 							<i class="fa fa-pinterest" aria-hidden="true"></i>
 							<span class="sr-only">Pinterest</span>
 						</a>
 					
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://www.instagram.com/claregalway_hotel/?hl=en">
 							<i class="fa fa-instagram" aria-hidden="true"></i>
 							<span class="sr-only">Instagram</span>
 						</a>
-					
+                       <a><br>+353 85 724 8753 <br>
+                       alishia.whittaker@gmail.com</a>
+					<!--
 						<a target="_blank" href="#">
 							<i class="fa fa-youtube" aria-hidden="true"></i>
 							<span class="sr-only">YouTube</span>
 						</a>
-					
+			-->
 				</ul>
 			</div>
 	
