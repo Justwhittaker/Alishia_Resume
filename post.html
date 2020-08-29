@@ -14,219 +14,160 @@
 	<link href="style.min.css" rel="stylesheet">
 
 	<!-- Custom fonts for this template -->
-	
+
 	<link
 		href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
 		rel="stylesheet" type="text/css">
 
 	<!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
 	<link href="css/style.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 
 
 
-	
-<!-- Navigation -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top mainNav"
-      id="nav_fix"
-    >
-      <div class="collapse navbar-collapse Bar" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-        <a class="navbar-brand"></a>
 
-            <a style="text-decoration: none;" class="nav-link" href="index.html">Home</a>
-            <a style="text-decoration: none;" class="nav-link" href="post.html">Gallery</a>
-            <a style="text-decoration: none;" class="nav-link" href="contact.html">Contact</a>
-          
-          
-          <button
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mainNav" id="nav_fix">
+	<div class="collapse navbar-collapse Bar" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<a class="navbar-brand"></a>
+
+			<a style="text-decoration: none;" class="nav-link" href="index.html">Home</a>
+			<a style="text-decoration: none;" class="nav-link" href="post.html">Gallery</a>
+			<a style="text-decoration: none;" class="nav-link" href="contact.html">Contact</a>
+
+
+			<button
             onclick="document.getElementById('id01').style.display='inline'">
             Login
           </button>
-    </ul>
-        
-      </div>
-          
+		</ul>
 
-        <!-- Button to open the modal login form -->
-       
+	</div>
 
-        <!-- The Modal -->
-        <div id="id01" class="modal">
-          <span
+
+	<!-- Button to open the modal login form -->
+
+
+	<!-- The Modal -->
+	<div id="id01" class="modal">
+		<span
             onclick="document.getElementById('id01').style.display='none'"
             class="close"
             title="Close Modal"
-            >&times;</span
-          >
+            >&times;</span>
 
-          <!-- Modal Content -->
-          <form class="modal-content animate" action="/action_page.php">
-            <div class="imgcontainer">
-              <img src="img/logo2.png" alt="WTF" class="avatar" />
+		<!-- Modal Content -->
+		<form class="modal-content animate" action="/action_page.php">
+			<div class="imgcontainer">
+				<img src="img/logo2.png" alt="WTF" class="avatar" />
             </div>
 
-            <div class="container">
-              <label for="uname"><b>Username</b></label>
-              <input
+				<div class="container">
+					<label for="uname"><b>Username</b></label>
+					<input
                 type="text"
                 placeholder="Enter Username"
                 name="uname"
                 required
               />
 
-              <label for="psw"><b>Password</b></label>
-              <input
+					<label for="psw"><b>Password</b></label>
+					<input
                 type="password"
                 placeholder="Enter Password"
                 name="psw"
                 required
               />
 
-              <button type="submit">Login</button>
-              <label>
+					<button type="submit">Login</button>
+					<label>
                 <input type="checkbox" checked="checked" name="remember" />
                 Remember me
               </label>
-            </div>
+				</div>
 
-            <div class="container" style="background-color: #f1f1f1;">
-              <button
+				<div class="container" style="background-color: #f1f1f1;">
+					<button
                 type="button"
                 onclick="document.getElementById('id01').style.display='none'"
                 class="cancelbtn"
               >
                 Cancel
               </button>
-              <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
-          </form>
-        </div>
-    </nav>
+					<span class="psw">Forgot <a href="#">password?</a></span>
+				</div>
+		</form>
+	</div>
+</nav>
 
-	<!-- Page Header -->
+<!-- Page Header -->
 
-		<header class="masthead" style="background-image: url('img/banner.png')">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-md-10 mx-auto">
-						<div>
-			<img class="logo" src="img/logo.png" alt="logo">
-					</div>
+<header class="masthead" style="background-image: url('img/banner.png')">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				<div>
+					<img class="logo" src="img/logo.png" alt="logo">
 					</div>
 				</div>
 			</div>
-		</header>
-<body>
-    
-		<!-- Main Content -->
-		<div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-4 mx-auto">
-						<div>
-							<h2>What can I acheive for your business
-							</h2>
-							<div class="gallery">
-								<img src="img/gym1.png" alt="Forest" width="600" height="400">
-
-								<div class="desc">Core Fitness Campaign</div>
-							</div>
-
-							<div class="gallery">
-								<img src="img/gym2.png" alt="Forest" width="600" height="400">
-
-								<div class="desc">Core Fitness Campaign</div>
-							</div>
-
-							<div class="gallery">
-								<img src="img/gym3.png" alt="Forest" width="600" height="400">
-
-								<div class="desc">Core Fitness Campaign</div>
-							</div>
-	                        <div class="gallery">
-								<img src="img/tre_logo.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Restaurant Logo design</div>
-							</div>
-
-							<div class="gallery">
-								<img src="img/tre_logo2.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Restaurant Logo Design</div>
-							</div>
-
-							<div class="gallery">
-								<img src="img/tre_multi.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Restaurant Campaign</div>
-							</div><div class="gallery">
-								<img src="img/tapa.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Food Photos</div>
-							</div>
-
-							<div class="gallery">
-								<img src="img/tre_jack.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Food photos</div>
-							</div>
-
-							<div class="gallery">
-								<img src="img/tre_salad.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Food photos</div>
-							</div>
-	                        <div class="gallery">
-								<img src="img/tre_taste.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Restaurant Tasting Campaign</div>
-							</div>
-
-							<div class="gallery">
-								<img src="img/tre_tasting.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Restaurant Tasting Campaign</div>
-							</div>
-
-							<div class="gallery">
-								<img src="img/tre_champ.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Drink photos</div>
-							</div>
-                            
-							<div class="gallery">
-								<img src="img/tre_gin.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Drink photos</div>
-							</div>
-                            <div class="gallery">
-								<img src="img/tre_gin2.jpg" alt="Forest" width="600" height="400">
-
-								<div class="desc">Drink photos</div>
-							</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/gym1.png" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/gym2.png" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/gym3.png" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/tre_trivia.png" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/tre_logo.jpg" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/tre_logo2.jpg" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/tre_multi.jpg" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/tre_antival.jpg" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/tre_hood.jpg" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/tre_jack.jpg" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/tre_gin2.jpg" alt="img">
+</div>
+<div class="col-sm-12 col-med-8 col-lg-4 col-xl-4">
+<img class="imageContainer" src="img/tre_salad.jpg" alt="img">
+</div>
+</div>
+</div>
+		<!-- Pager -->
+		<div class="clearfix">
+			<a class="btn btn-primary float-right" href="contact.html">Get in Touch &rarr;</a>
+		</div>
+		<hr />
 	
-    <hr>
-          <!-- Pager -->
-          <div class="clearfix">
-            <a class="btn btn-primary float-right" href="contact.html"
-              >Get in Touch &rarr;</a
-            >
-          </div>
-       <hr />
-    
-        
-	</body>
-  <!-- Footer 
+
+
+<!-- Footer -->
 
    <footer class="footerCSS">
 			<div class="footerCSS">
@@ -268,12 +209,12 @@
 			</div>
 	
 		
-	</footer>-->
-	<!-- Bootstrap core JavaScript -->
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-	<!-- Custom scripts for this template -->
-	<script src="js/clean-blog.min.js"></script>
+<!-- Custom scripts for this template -->
+<script src="js/clean-blog.min.js"></script>
 
 </html>

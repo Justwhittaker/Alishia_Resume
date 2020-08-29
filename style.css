@@ -772,3 +772,14 @@ span.psw {
 .upload {
   background-image: url "(img/keyboard.jpeg)";
 }
+
+.imageContainer {
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+}
+
+.imageContainer > img:hover {
+  width: 1000px;
+  height: 1000px;
+}
