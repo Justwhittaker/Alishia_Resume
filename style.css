@@ -407,12 +407,17 @@ header.masthead .post-heading .meta a {
   margin-bottom: 0;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #dee2e6;
+  
+  display: inline-block;
+  text-align: center;
 }
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
   font-size: 1.5em;
   position: relative;
+  display: inline-block;
+  
   z-index: 1;
   padding: 0;
   resize: none;
@@ -753,7 +758,6 @@ span.psw {
 .contactForm {
   font-family: "Arima Madurai", cursive;
   position: relative;
-  margin-right: 250px;
   float: center;
   font-size: 35px;
 }
