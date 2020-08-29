@@ -402,26 +402,25 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group {
-  font-size: 14px;
+  font-size: 18px;
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #dee2e6;
-  
+  padding: 0.5em;
   display: inline-block;
   text-align: center;
 }
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
-  font-size: 1.5em;
+  font-size: 32px;
   position: relative;
   display: inline-block;
-  
   z-index: 1;
   padding: 0;
   resize: none;
-  border: none;
+  border: 1px solid #dee2e6;
   border-radius: 0;
   background: none;
   box-shadow: none !important;
@@ -443,8 +442,6 @@ header.masthead .post-heading .meta a {
   display: block;
   margin: 0;
   transition: top 0.3s ease, opacity 0.3s ease;
-  vertical-align: middle;
-  vertical-align: baseline;
   opacity: 0;
 }
 
@@ -760,6 +757,7 @@ span.psw {
   position: relative;
   float: center;
   font-size: 35px;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .uploadForm {
