@@ -90,7 +90,7 @@ blockquote {
 .writePics {
   background-repeat: no-repeat;
   float: right;
-  background-image: fill;
+  background-size: contain;
   display: block;
   margin-left: 100px;
   margin-right: 100px;
@@ -101,7 +101,7 @@ blockquote {
 .writePics2 {
   background-repeat: no-repeat;
   float: left;
-  object-fit: cover;
+  background-size: contain;
   display: block;
   margin-left: 100px;
   margin-right: 100px;
