@@ -681,6 +681,13 @@ img.avatar {
 
 .container {
   padding: 16px;
+  background-image: cover;
+}
+
+#gallery {
+    background-image: fill;
+    padding: 2px;
+
 }
 
 span.psw {
@@ -786,6 +793,12 @@ span.psw {
     width: 400px;
     height: 400px;
     background-size: contain;
+    margin: 10 10 10 10;
+   
+}
+.px-2 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
 }
 
 .imageContainer > img:hover {
