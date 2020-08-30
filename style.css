@@ -143,6 +143,15 @@ img::-moz-selection {
   font-family: "Do Hyeon", sans-serif;
 }
 
+.mainNav_post{
+    text-align: right;
+    position: inline;
+  width: 100%;
+  background-color: rgba(130, 199, 252, 0.828);
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 30px;
+}
+
 .mainNav {
   position: inline;
   width: 100%;
@@ -151,7 +160,7 @@ img::-moz-selection {
   border-bottom: 1px solid #e8e8e8;
   background-color: rgba(130, 199, 252, 0.828);
   font-family: "Do Hyeon", sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   text-emphasis-color: rgba(32, 65, 210, 0.828);
   font-weight: 10;
   flex-wrap: wrap;
